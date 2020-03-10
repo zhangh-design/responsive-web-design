@@ -1,0 +1,16 @@
+.DS_Store
+
+.idea
+.vscode
+.svn/
+
+node_modules
+dist
+
+bin/
+tmp/
+
+.project
+.settings/
+
+local.properties
