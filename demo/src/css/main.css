@@ -91,11 +91,112 @@ li {
   浏览器更新提示
   ========= */
 
-.browser-upgrade{
+.browser-upgrade {
   margin: 0;
   padding: 1rem;
   background: #ccc;
 }
 
+/* =========
+  自定义页面样式
+  ========= */
 
+body {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+}
 
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover,
+a:target {
+  color: #0ae;
+  text-decoration: underline;
+}
+
+/* 网站头部 */
+
+header {
+  width: 100%;
+}
+
+header .top {
+  line-height: 3rem;
+  padding: 0 1.5rem;
+  color: #fff;
+  background: #555;
+  border-bottom: 1px #ecc000 solid;
+}
+
+header .top .tel {
+  float: left;
+}
+
+header .top ul {
+  text-align: right;
+}
+
+header .top ul li {
+  display: inline-block;
+}
+
+header .top ul li + li {
+  border-left: 1px solid #999;
+  margin-left: -3px;
+}
+
+header .top ul li a {
+  display: inline-block;
+  padding: 0 1.5rem;
+  color: #fff;
+}
+
+header .main {
+  padding: 0;
+}
+
+header .main .brand {
+  float: left;
+  padding: 1rem 1.5rem;
+}
+
+header .main ul {
+  text-align: right;
+}
+
+header .main ul li {
+  display: inline-block;
+  border-left: 1px solid #f0ede9;
+}
+
+header .main ul li a {
+  display: inline-block;
+  padding: 0 3rem;
+  line-height: 5.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #7c7a65;
+  text-decoration: none;
+}
+
+header .main ul li a:hover,
+header .main ul li a:active,
+header .main ul li a.active {
+  color: #ffb300;
+  background: #f8f6f1;
+}
+
+/* 网站主要内容 */
+.container {
+  width: 100%;
+}
+
+/* 底部导航 */
+
+footer {
+  width: 100%;
+}
