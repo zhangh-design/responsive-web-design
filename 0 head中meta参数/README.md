@@ -304,9 +304,9 @@ content属性值 :
 Apple iOS 设备设置
 
 ```
-<meta name=”apple-mobile-web-app-title” content=”标题”> iOS 设备 begin
+<meta name="apple-mobile-web-app-title" content="标题"> iOS 设备 begin
 
-<meta name=”apple-mobile-web-app-capable” content=”yes”/> 添加到主屏后的标题（iOS 6 新增）
+<meta name="apple-mobile-web-app-capable" content="yes"/> 添加到主屏后的标题（iOS 6 新增）
 ```
 
 
